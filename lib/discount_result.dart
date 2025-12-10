@@ -46,7 +46,6 @@ class DiscountResult {
 
     final savings = baselinePriceWithTax - finalPriceWithTax;
 
-    // FIXED: must use 0.0 instead of 0
     final savingsPercent =
     baselinePriceWithTax > 0
         ? (savings / baselinePriceWithTax) * 100
