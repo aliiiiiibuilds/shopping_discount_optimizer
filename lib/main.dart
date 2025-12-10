@@ -13,7 +13,7 @@ class ShoppingDiscountApp extends StatelessWidget {
     return MaterialApp(
       title: 'Shopping Discount Optimizer',
       debugShowCheckedModeBanner: false,
-      themeMode: ThemeMode.system, // Uses system light/dark mode
+      themeMode: ThemeMode.system, 
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.green),
         useMaterial3: true,
